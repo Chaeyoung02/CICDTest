@@ -1,3 +1,10 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()  // Gradle 플러그인 저장소
+        mavenCentral()        // Maven Central 저장소
+        maven { url = uri("https://repo.spring.io/plugins-release") }  // Spring 플러그인 저장소
+    }
+}
 plugins {
     id 'java'
     id 'org.springframework.boot' version '3.0.0'
