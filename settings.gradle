@@ -1,13 +1,4 @@
 
-// settings.gradle 파일
-pluginManagement {
-    repositories {
-        gradlePluginPortal()  // Gradle 플러그인 저장소
-        mavenCentral()        // Maven Central 저장소
-        maven { url = uri("https://repo.spring.io/plugins-release") }  // Spring 플러그인 저장소
-    }
-}
-
 rootProject.name = 'test'
 
 
