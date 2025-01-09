@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/api") // 기본 경로를 '/api'로 설정
-public class TestController {
+public class MainController {
 
     // GET 요청을 처리
     @RequestMapping(value = "/greet", method = RequestMethod.GET)
